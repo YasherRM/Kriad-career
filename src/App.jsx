@@ -1,19 +1,15 @@
-import './App.css'
+import "./App.css";
 
-import SignUpPage from './Components/SignUpPage'
-
-
+import HomePage from "./Components/HomePage";
+import SignUpPage from "./Components/SignUpPage";
 
 function App() {
-
   return (
     <>
-
-      <SignUpPage/>
-
-  
+      <HomePage />
+      <SignUpPage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
